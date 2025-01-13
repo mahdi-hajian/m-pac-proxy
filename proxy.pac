@@ -32,5 +32,4 @@ function FindProxyForURL(url, host) {
     }
 
     // Use proxy for all other requests
-    return "PROXY 192.168.254.1:3128; DIRECT";
-}
+    return "PROXY 127.0.0.1:8086; DIRECT";}
